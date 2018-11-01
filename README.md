@@ -37,8 +37,8 @@ func main() {
 }
 ```
 
-All client commands have a ..Context version that allows their use with
-context.Context.
+All client commands have a .Context version that allows their use with
+context.Context. The context controls cancellation and request timeout.
 
 ## Status
 Supported featues of the [Etherscan API](https://etherscan.io/apis):
